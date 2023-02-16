@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=btyWallet
+Exec=AppRun %F
+Icon=default
+Comment=bty mining wallet
+Terminal=true
