@@ -30,9 +30,11 @@
 * 打开终端，直接运行./mac_pack.sh
 * 生成最新的 btiyuan 新包
 * 通过磁盘工具创建一个空白的 dmg 镜像, File –> New –> Blank Disk Image
-* 默认设置 250 MB，名称为 chain33-qt-Mac，最终制作出来的 dmg 文件会自动裁剪掉空白的。
-* 双击 “chain33-qt-Mac” 出来的空白窗口
-* 将上面制作好的 chain33-qt.app 拽到 “chain33-qt-Mac” 里面，再做一个 Applications 快捷方式 (右键–>Make Alias)
-* 将做好的 dmg，转换一下就完成了，在 Disk Utility 中如果没有的话，请将它拽回去就可以了，然后右键 chain33-qt-Mac.dmg –> Convert ”chain33-qt-Mac”
+* 修改名称为Bityuan-Wallet-mac-6.8.3-qt，默认设置 300 MB，最终制作出来的 dmg 文件会自动裁剪掉多余的空间。
+* 查看图片"C:\Users\QM\Desktop\bityuan-发布\BTYPackage-script\mac_png\01.png"
+* 双击 “Bityuan-Wallet-mac-6.8.3-qt” 出来的空白窗口
+* 将上面制作好的 bityuan.app 新包拽到 “Bityuan-Wallet-mac-6.8.3-qt” 里面，再做一个 Applications 快捷方式 (右键–>Make Alias)
+* 查看图片"C:\Users\QM\Desktop\bityuan-发布\BTYPackage-script\mac_png\02.png"
+* 将做好的 dmg，转换一下就完成了，在 Disk Utility 中如果没有的话，请将它拽回去就可以了，然后右键 Bityuan-Wallet-mac-6.8.3-qt.dmg –> Convert ”Bityuan-Wallet-mac-6.8.3-qt”
+* 查看图片"C:\Users\QM\Desktop\bityuan-发布\BTYPackage-script\mac_png\03.png"
 * 可参考文档 Qt Mac 下软件 Release 发布 dmg https://blog.csdn.net/fox64194167/article/details/38441331
-
